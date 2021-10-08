@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(#ffe4e4,#fffdc9, #dddfff);
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+@media(max-width:700px),(orientation:portrait){
+#demo1{
+    color: red;
+    font-size: 1.6em;
+    margin-left: 280px;
+    position: fixed;
+}
+}
+
+
+@media(max-width:200px),(orientation:landscape){
+    #demo1{
+        color: red;
+        font-size: 1.6em;
+        margin-left: 900px;
+        position: fixed;
+    }
+    }
+
+#button{
+background-color: black;
+color: white;
+font-size: 18px;
+padding: 5px;
+margin-left: 50%;
+}
+
+
+
+
+
+#username{
+    padding: 10px;
+}
+
+
+.center{
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 20px;
+
+}
+
+
+
+
+.centerNext{
+    text-align: center;
+}
+
+
+#submitSet{
+    padding: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+}
+
+#submitSet:hover{
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+
+#validationTalk{
+    color:red
+}
+
+#goBack{
+    display: none;
+  
+}
+
+#firstPage{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    color: #dddfff;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+#result h3{
+color:red;
+}

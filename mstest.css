@@ -1,0 +1,85 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+
+  background-image: url("image/bm2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:center;
+  -webkit-background-size:cover;
+ 
+}
+
+
+
+
+#myVideo{
+    position: fixed;
+    right:0;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.kvstudio{
+    text-decoration: none;
+}
+
+.center{
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 20px;
+
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.post input{
+    display: block;
+}
+
+.post input[type="text"]{
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.post input[type="button"]{
+    padding: 10px;
+    padding-right:50px;
+    margin-left: 105px;
+    
+}
+
+.post input[type="button"]:hover{
+   color: red;
+}
+
+#emptyUserName{
+    color:red;
+}
+
+#emptyPassword{
+    color: red;
+}
+
+
+
+
